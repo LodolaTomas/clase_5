@@ -1,10 +1,9 @@
-#include <stdio.h>
 #include <stdlib.h>
 #define T 10 //Directiva precompiladora, definir un valor que despues va a ser buscado y reemplazado en el codigo, como una constante global (pero no lo es)
 /*int const T = 5; constante, un elemento que me permite defnir un valor q se mantiene durante
                    todo el ciclo del programa diferencia entre define y constante, el define es
                    en tiempo de pre compilacion, la cosntante es en tiempo de ejeccion y ocupa espacio en memoria*/
-#include "funciones.h"
+#include "funciones.h"//""busca en el directorio de la carpeta
 
 
 int main()
