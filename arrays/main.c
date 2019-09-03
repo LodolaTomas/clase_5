@@ -3,7 +3,7 @@
 
 int main()
 {
-    int vectorDeNumeros[10]= {7,-5,5,-6,-1,-4,10,5,4,-1};
+    int vectorDeNumeros[10]= {-10,-10,5,-6,-1,-4,10,5,4,-1};
     int i;
     int contadorDePositivos = 0;
     int sumaDePositivos = 0;
@@ -25,6 +25,7 @@ int main()
     {
         printf("%d\n", vectorDeNumeros[i]);
     }
+    /*
     printf("\n\n\tMUESTRO SOLO LOS NEGATIVOS\n");
     for(i=0; i<10; i++)
     {
@@ -62,11 +63,7 @@ int main()
         }
         flag=1;
     }
-
-
-
-
-    printf("EL MAXIMO: %d \n", maximo);
+*/
 
     for(i=0; i<10; i++)//muestro la posicion
     {//cuando el vector de numeros coincida con el maximo muestro la posicion " i "
@@ -82,8 +79,9 @@ int main()
         }
 
     }
-
-
     printf("EL MINIMO: %d \n", minimo);
+    printf("EL MAXIMO: %d \n", maximo);
+
+
     return 0;
 }
