@@ -35,6 +35,7 @@ int main()
     */
 
 ///         Mejor manera de Hacerlo :)
+
 /*
     for (i = 1; i <= numero; i++)
     {
