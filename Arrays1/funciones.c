@@ -54,9 +54,35 @@ int calcularMaximo(int vector[],int tam)
 
     return maximo;
 }
+void MostrarVector(int vector[],int tam)
+{
+    int i;
+    for(i=0; i<tam; i++)
+    {
+        printf("%d\n", vector[i]);
+    }
+}
 
 
+void odenarVector(int vector[],int tam)
+{
+int i,j;
+int aux;
+for(i=0;i<tam;i++)
+{
+    for(j=i+1;j<tam;j++)
+    {
+        if(vector[i]>vector[j])///criterio de ordenamiento u evaluacion, "<" mayor a menor, ">" menor a mayor.
+        {
+            aux=vector[i];
+            vector[i]=vector[j];
+            vector[j]=aux;
 
+        }
+    }
+}
+
+}
 
 
 

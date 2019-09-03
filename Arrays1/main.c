@@ -45,10 +45,17 @@ int main()
             break;
         case 2:
             printf("\tMUESTRO EL VECTOR\n");
-            for(i=0; i<T; i++)
-            {
-                printf("%d\n", vectorDeNumeros[i]);
-            }
+
+            MostrarVector(vectorDeNumeros,T);
+
+            printf("\tORDENO VECTOR\n");
+
+            odenarVector(vectorDeNumeros,T);
+
+            printf("\tMUESTRO EL VECTOR ORDENADO\n");
+
+            MostrarVector(vectorDeNumeros,T);
+
             break;
         case 3:
             printf("\n\n\tMUESTRO SOLO LOS NEGATIVOS\n");
